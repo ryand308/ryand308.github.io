@@ -1,0 +1,115 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #030C0D;
+}
+section
+{
+    /*height: 200px;*/
+    background: #030C0D;
+}
+video
+{
+    object-fit: cover;
+    min-height: 100vh;
+    width: 100%;    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h1
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%; /*200px*/
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    font-size: 5em;
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+}
+h1 span
+{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+h1 a
+{
+    color: #ddd;
+    text-decoration: none;
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+
+h1 span:nth-child(1)
+{
+    animation-delay: 2.5s;
+}
+h1 span:nth-child(2)
+{
+    animation-deLay: 2s;
+}
+h1 span:nth-child(3)
+{
+    animation-delay: 1.75s;
+}
+h1 span:nth-child(4)
+{
+    animation-delay: 1.5s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay: 1s;
+}
+h1 span:nth-child(6)
+{
+    animation-delay: 1.25s;
+}
+h1 span:nth-child(7)
+{
+    animation-delay: 2s;
+}
+h1 span:nth-child(8)
+{
+    animation-delay: 2.5s;
+}
+h1 span:nth-child(9)
+{
+    animation-delay: 2.8s;
+}
+.paragraph
+{
+    height: 800px;
+    background-color:#030C0D;
+    color: white;
+}
+section #mainbg
+{
+    height: 600px;
+    width:100%;
+}
+p
+{
+    font-size: 20px;
+    font-family: sans-serif, "新細明體";
+    letter-spacing: 5px;
+    display: block;
+}

@@ -1,0 +1,26 @@
+/* about us page*/
+.sub-header
+{
+    height: 50vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/campus1.jpg);
+    background-position: center;
+    background-size: cover; /* 使圖片完整 */
+    text-align: center;
+    color: white;
+}
+.sub-header h1
+{
+    margin: revert;   
+}
+.lightgreen-btn
+{
+    border: 1px solid #074742;
+    background: transparent;
+    color: #074742;
+}
+.lightgreen-btn:hover
+{
+    color: #777;
+}

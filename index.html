@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web design own</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto+Mono:wght@100&family=Roboto:ital,wght@0,300;1,100&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<!--goolge fonts-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Font Awesome intro-->
+<link rel="icon" type="image" href="image/humanoid.png">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="http://www.jkm.com.tw" class="logo">JKM<span style="font-size: 18px;">傑高股份有限公司</span><img src="image/icons8-r.png" style="width: 20px;"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" style="font-size: 26px; color: white;"></i>
+            <ul>
+                <li><a href="index.html">HOME.首頁</a></li>
+                <li><a href="about.html">ABOUT.介紹</a></li>
+                <li><a href="course.html">COURSE.分享</a></li>
+                <li><a href="blog.html">BLOG.看板</a></li>
+                <li><a href="contact.html">CONTACT.聯絡</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" style="font-size: 26px; color: lightgray; position: fixed; right: 1%;"></i>
+    </nav>
+    <div class="text-box">
+        <h1>自我介紹 & Website Design</h1>
+        <p>我喜歡運動，路跑、登山、游泳、跳舞；<br/>偶爾練習興趣，像是練習吉他、打字，透過YouTube學習和閱讀。<br/>
+            Making website is now of the easiest thing in the world.<br/>
+            You just need to learn HTML, CSS, Javascript and you are good to go.
+        </p>
+        <a href="blog.html#comment-link" class="hero-btn">Visit Me To Know More</a>
+    </div>
+    <a href="#" class="top">
+        <i class="fa fa-angle-up" style="font-size: 26px; color: lightgray; right: 3%; bottom: 20px; position:fixed;"></i>
+    </a>
+    </section>
+
+    <!-- Course-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Pellentesque aliquet turpis nulla, eleidend faucibus est
+                    sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus 
+                    Donec ist.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Pellentesque aliquet turpis nulla, eleidend faucibus est
+                    sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus 
+                    Donec ist.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Pellentesque aliquet turpis nulla, eleidend faucibus est
+                    sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus 
+                    Donec ist.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Asia City-->
+    <section class="campus" id="city">
+        <h1>Our Asia City</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <!-- photo one-->
+            <div class="campus-col">
+                <img src="image/hongkong.jpg">
+                <div class="layer">
+                    <h3 style="color: white;">Hong Kong</h3>         
+                </div>
+            </div>
+            <!-- photo two-->
+            <div class="campus-col">
+                <img src="image/tokyo.jpg">
+                <div class="layer">
+                    <h3 style="color: white;">Tokyo</h3>
+                </div>
+            </div>
+            <!-- photo three-->
+            <div class="campus-col">
+                <img src="image/taiwan.jpg">
+                <div class="layer">
+                    <h3 style="color: white;">Taiwan</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Facilities-->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <!--one-->
+            <div class="facilites-col">
+                <img src="image/library1.jpg">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!--two-->
+            <div class="facilites-col">
+                <img src="image/market.jpg">
+                <h3>Largest of Market</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <!--three-->
+            <div class="facilites-col">
+                <img src="image/national-cancer-institute-.jpg">
+                <h3>National cancer institute</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--testimonials-->
+    <section class="testimonial">
+        <h1>What Our Friend Says</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="image/photo.jpg">
+                <div>
+                    <p>Pellentesque aliquet turpis nulla, eleidend faucibus est
+                        sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus 
+                        Donec ist.
+                        </p>
+                    <h3>Curits Kai</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="image/female1.jpg">
+                <div>
+                    <p>Pellentesque aliquet turpis nulla, eleidend faucibus est
+                        sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus 
+                        Donec ist.
+                        </p>
+                    <h3>Alina Inst</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Call To Action-->
+    <section class="cta">
+        <h1>Enroll For Our Various Online Vourses<br/>Anywhere From The Wrold</h1>
+        <a href="contact.html#contact-link" target="_blank" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- Footer-->
+    <section class="footer">
+        <h4>About Us - 與我們聯繫</h4>
+        <p>終於寫到最後了~ 再來就是大部分網站都後保留的資訊<br/>LINE: ryand308 <br/>E-mail: Ryand308@gmail.com</p>
+        <div class="icons">
+            <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100051696151789"><i class="fa fa-facebook"></i></a>
+            <a href="https://github.com/ryand308?tab=repositories"><i class="fa fa-github"></i></a>
+            <a href="mailto:pokai955@gmail.com"><i class="fa fa-envelope-o"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Eas Tutorials</p>
+    </section>
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
