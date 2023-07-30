@@ -8,6 +8,11 @@
     font-family: 'Roboto Mono', monospace;
     font-family: 'Work Sans', sans-serif;
 }
+/* 捲動網頁 */
+html
+{
+    scroll-behavior: smooth;
+}
 a
 {
     text-decoration: none;

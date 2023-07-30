@@ -6,8 +6,8 @@ footer
     background: linear-gradient(to bottom, #171c24, #2d0b00);   
     color: #fff;
     padding: 100px 0 30px;
-    border-top-left-radius: 125px; /* 左上角的弧度 */
-    border-top-right-radius: 50px;
+    /*border-top-left-radius: 125px;  左上角的弧度 
+    border-top-right-radius: 50px;*/
     font-size: 13px;
     line-height: 20px;
 }
@@ -101,7 +101,7 @@ ul li a
 .social-icons .fa-solid,
 .social-icons .fab
 {
-    font-size: 28px;
+    font-size: 20px;
     height: 40px;
     border-radius: 50%;
     text-align: center;
@@ -111,7 +111,15 @@ ul li a
     color: #000;
     background: #fff;
     margin-right: 15px;
+    margin-top: 15px;
     cursor: pointer;
+}
+.col ul li a:hover,
+.social-icons .fa-solid:hover,
+.social-icons .fab:hover
+{
+    color: #36f4e7;
+    background-color: #000;
 }
 hr
 {
