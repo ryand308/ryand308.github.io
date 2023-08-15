@@ -119,7 +119,11 @@ ul li a
 .social-icons .fab:hover
 {
     color: #36f4e7;
-    background-color: #000;
+}
+.social-icons .fa-solid:hover,
+.social-icons .fab:hover
+{
+    background-color: #0c322f;
 }
 hr
 {

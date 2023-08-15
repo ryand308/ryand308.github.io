@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web design own</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styleBasic.css">
+    <link rel="stylesheet" href="travelStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="../footer.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto+Mono:wght@100&family=Roboto:ital,wght@0,300;1,100&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<!--goolge fonts-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Font Awesome intro-->
+<link rel="icon" type="image" href="../image/main.ico">
+<script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="http://www.jkm.com.tw/first.html" class="logo">JKM<span style="font-size: 18px;">傑高股份有限公司</span><img src="../image/icons8-r.png" style="width: 20px;"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" style="font-size: 26px; color: white;"></i>
+            <ul>
+                <li><a href="../index.html">HOME.首頁</a></li>
+                <li><a href="../about.html">ABOUT.介紹</a></li>
+                <li><a href="../course.html">COURSE.課程</a></li>
+                <li class="son" style="cursor: pointer;"><a>BLOG.看板</a>
+                    <ul>
+                        <li><a href="autobiography.html">自傳</a></li>
+                        <li><a href="#">生活</a></li>
+                        <li><a href="travel.html">旅遊</a></li>
+                    </ul>
+                </li>
+                <li><a href="../contact.html">CONTACT.聯絡</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" style="font-size: 26px; color: lightgray; position: fixed; right: 15px;"></i>
+    </nav>
+    <h1>Travel to Aisa's Country<br/>部落格</h1>    
+    </section>
+    <a href="#" class="top">
+        <i class="fa fa-angle-up" style="font-size: 26px; color: lightgray; right: 3%; bottom: 20px; position:fixed; z-index: 3;"></i>
+    </a>
+    <!-- Create Toggleable Tabs -->
+    <div class="tab">
+        <a href="travel.html"><button class="tablinks1">AsiaMap</button></a>
+        <a href="hongKong.html"><button class="tablinks">Hong Kong</button></a>
+        <a href="tokyo.html"><button class="tablinks">Tokyo</button></a>
+        <a href="taipei.html"><button class="tablinks">Taipei</button></a>
+        <a href="singapore.html"><button class="tablinks active1">Singapore</button></a>
+        <a href="seoul.html"><button class="tablinks">Seoul</button></a>
+        <a href="sangHai.html"><button class="tablinks">Shang Hai</button></a>
+    </div>
+    
+    <!-- Travel page content in blog's class -->
+        <!--  Singapore  -->
+    <div id="singapore" class="tabcontent">
+        <h1>The Singapore's image from the Unsplash</h1>
+        <div class="lightbox">
+        <div class="wrapper">
+            <header>
+            <div class="details">
+                <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                <span>Image Preview</span>
+            </div>
+            <div class="buttons"><i class="fa fa-times close-icon" aria-hidden="true"></i></div>
+            </header>
+            <div class="preview-img">
+            <div class="img"><img src="" alt="preview-img"></div>
+            </div>
+        </div>
+        </div>
+        <section class="gallery">
+        <ul class="images">
+            <li class="img"><img src="../image/Singapore/singapore.jpg" alt="img"></li>
+            <li class="img"><img src="../image/Singapore/singapore1.jpg" alt="img"></li>
+            <li class="img"><img src="../image/Singapore/singapore2.jpg" alt="img"></li>
+            <li class="img"><img src="../image/Singapore/singapore3.jpg" alt="img"></li>
+            <li class="img"><img src="../image/Singapore/singapore4.jpg" alt="img"></li>
+            <li class="img"><img src="../image/Singapore/singapore5.jpg" alt="img"></li>
+            <li class="img"><img src="../image/Singapore/singapore6.jpg" alt="img"></li>
+            <li class="img"><img src="../image/Singapore/singapore7.jpg" alt="img"></li>
+            <li class="img"><img src="../image/Singapore/singapore8.jpg" alt="img"></li>
+            <li class="img"><img src="../image/Singapore/singapore9.jpg" alt="img"></li>
+
+        </ul>
+        </section>
+    </div>
+    
+    
+    <footer>
+        <div class="row-under">
+            <div class="col">
+                <h1 class="loge1">JKM</h1>
+                <p>Serve All Customers In Every Detail ourEternal Theme</p>
+                <h2 class="logel"> 客戶服務每個細節是我們永恆的主題</h2>
+                <p style="float: right;">成立於民國79年7月23日</p>
+            </div>
+            <div class="col"> <!-- 辦公室-地址介紹 -->
+                <h3>Office <div class="underline"><span></span></div></h3>
+                <p>XingLong Road</p>
+                <p>Three sections, Tapei</p>
+                <p>WanFang Hospial, PIN 100, Taiwan</p>
+                <p class="email-id">yang.kai1988@outlook.com</p>
+                <h4>+886 0936-111758</h4>
+            </div>
+            <div class="col">
+                <h3>Website<div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="https://www.codingnepalweb.com/">CodingNepal</a></li>
+                    <li><a href="https://swiperjs.com/">Swiper</a></li>
+                    <li><a href="https://www.flaticon.com/">flaticon</a></li>
+                    <li><a href="https://icons8.com/">ICONS8</a></li>
+                    <li><a href="https://fontawesome.com/">Font Awesome | kits</a></li>
+                    <li><a href="https://fontawesome.com/v4/">Font Awesome</a></li>
+                    <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Programming<div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="https://www.python.org/">python</a></li>
+                    <li><a href="https://www.oracle.com/tw/java/technologies/downloads/">Java</a></li>
+                    <li><a href="https://dotnet.microsoft.com/en-us/download">.NET C#</a></li>
+                    <li><a href="https://visualstudio.microsoft.com/zh-hant/vs/community/">Visual Studio Community</a></li>
+                    <li><a href="https://code.visualstudio.com/">Visual Studio code</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div></h3>
+                <form class="under">
+                    <i class="far fa-envelope"></i>
+                    <input class="enter" type="email" placeholder="Enter your email id" required>
+                    <button class="ok" type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100051696151789"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://github.com/ryand308?tab=repositories"><i class="fab fa-github"></i></a>
+                    <a href="https://www.yahoo.com"><i class="fab fa-yahoo"></i></a>
+                    <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    <a href="mailto:pokaiy955@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Easy Tutorials 2023 - All Rights Reserved</p>
+    </footer>
+
+
+<script src="./JS/script.js" type="text/javascript"></script>
+<script src="travelScript.js" type="text/javascript"></script>
+</body>
+</html>
