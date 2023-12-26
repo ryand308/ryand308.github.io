@@ -38,7 +38,7 @@
 .tab button.active {
   background-color: #ccc;
 }
-h1 {
+.tabcontent h1 {
     text-align: center;
     margin-top: 50px;
   }
